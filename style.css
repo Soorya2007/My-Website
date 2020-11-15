@@ -1,0 +1,66 @@
+
+    h1{
+        color : blueviolet;
+        margin-left : 30px;
+        padding-right : 20px;
+        
+    }
+    *{
+        border : silver;
+    }
+
+
+.heading{
+    display : flex;
+    flex-direction: row;
+    background-color: turquoise ;
+    justify-content: space-between;
+    font-size: smaller;
+    font-style: italic;
+    font-weight: 600;
+}
+.grid{
+    display : flex;
+    flex-direction: row;
+    background-color: yellowgreen;
+    justify-content: space-evenly;
+    font-variant: normal;
+}
+a:link{
+    color: steelblue;
+}
+a:visited{
+    color: steelblue;
+}
+.item{
+    position: relative;
+}
+.item p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.item:hover p{
+    opacity: 1;
+}
+.item:hover img{
+    opacity: 0.33;
+}
+.Socials{
+    display : flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-variant: small-caps;
+}
+.footer{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-style: normal;
+}
+
+body{
+    background-color: #808080;
+}
